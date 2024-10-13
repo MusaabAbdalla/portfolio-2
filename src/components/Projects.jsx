@@ -23,8 +23,8 @@ function Projects() {
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={200}
+                height={200}
                 alt={project.title}
                 className="mb-6 rounded"
               />
@@ -53,7 +53,7 @@ function Projects() {
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-purple-800 text-white px-4 py-2 rounded"
+                  className="inline-block bg-purple-800 text-white px-4 py-2 rounded hover:opacity-70"
                 >
                   Live Website
                 </a>
@@ -61,7 +61,7 @@ function Projects() {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-neutral-900 text-white px-4 py-2 rounded"
+                  className="inline-block bg-neutral-900 text-white px-4 py-2 rounded hover:opacity-70"
                 >
                   GitHub
                 </a>
