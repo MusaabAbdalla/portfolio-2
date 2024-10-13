@@ -21,7 +21,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "eStore is a React-powered e-commerce store is a great example of using React, React Router, Context API, and Tailwind CSS. It features reusable components and manages state smoothly with the useReducer hook, creating a fun and seamless shopping experience.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
     liveUrl: "https://musaab-estore.netlify.app/",
     githubUrl: "https://github.com/MusaabAbdalla/eStore/tree/main",
   },
